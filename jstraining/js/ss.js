@@ -143,11 +143,14 @@ var sum=num+num1;
 document.write("sum of two num is " +sum);
 document.write("<br>");*/
 
-var num=prompt("1st num");
+/*var num=prompt("1st num");
 num=(num);
 var num1=prompt("2nd num");
 num1=(num1);
 var sum=num+num1;
-document.write("the sum num is "+sum);
+document.write("the sum num is "+sum);*/
+
+//var course = window.prompt('Which course are you enrolled in?');
+//alert(course);
 
 
