@@ -134,13 +134,20 @@ var sum = num1 + num2;
 document.write("Sum of two numbers is :" + sum);
 document.write("<br>");*/
 
-
+/*
 var num=prompt("first number");
 num=parseInt(num);
 var num1=prompt("second number");
 num1=parseInt(num1);
 var sum=num+num1;
 document.write("sum of two num is " +sum);
-document.write("<br>");
+document.write("<br>");*/
 
-var num
+var num=prompt("1st num");
+num=(num);
+var num1=prompt("2nd num");
+num1=(num1);
+var sum=num+num1;
+document.write("the sum num is "+sum);
+
+
