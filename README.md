@@ -1,4 +1,4 @@
 # javascript-practice
 alert
-propmt
+prompt
 testing conditions
