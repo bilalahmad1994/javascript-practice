@@ -175,23 +175,58 @@ document.write("the sum num is "+sum);*/
  */
 
 
-var score=0;
-var x=prompt("in which city do u live");
-if (x==="karachi"){
-    score++;
-    alert("karachi is a big city");
-}
-useriq="genius";
-if (score>0){
-    alert("congratz "+useriq);
-}
-else {
-    alert("sorry try again");
-}
-x=prompt("next try");
-if (x==="karachi"){
-    score++;
-    alert("karachi is a big city");
-    }
+//var score=0;
+//var x=prompt("in which city do u live");
+//if (x==="karachi"){
+//    score++;
+//    alert("karachi is a big city");
+//}
+//useriq="genius";
+//if (score>0){
+//    alert("congratz "+useriq);
+//}
+//else {
+//    alert("sorry try again");
+//}
+//x=prompt("next try");
+//if (x==="karachi"){
+//    score++;
+//    alert("karachi is a big city");
+//    }
+
+/** Else If statements **/
+
+//var percentage=80;
+//if (percentage>=90){
+//  alert("a one grade");
+//}
+//else if (percentage >= 100)
+//{
+//    alert("A grade");
+//}
+//else if(percentage >= 60){
+//    alert("B grade");
+//}
+//else{
+//    alert("Sorry. You have failed");
+//}
+
+
+/** Logical operators **/
+// AND - &&
+// OR - ||
+// NOT - !
+/** Testing multiple conditions in one statement **/
+//
+//var test="js";
+//var scORE=65;
+//if(test === "js" && scORE <=65)
+//{
+//    alert("You have passed CSS test");
+//}
+//if(test === "js" && scORE <60)
+//{
+//    alert("You have passed JS test");
+//}
 
 
