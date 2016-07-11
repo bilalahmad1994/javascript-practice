@@ -154,3 +154,44 @@ document.write("the sum num is "+sum);*/
 //alert(course);
 
 
+//if else conditions
+//  ==  -->  compares value
+//  ===  -->  compares value and data type
+//    ==  // values on both sides are equal
+//    !=  // values on both sides are not equal
+//    ===  // values and types on both sides are equal
+//    !==  // values and/or types on both sides are equal
+
+/** Comparison Operators **/
+/*
+ > is greater than                  //exclusive
+ < is less than                     //exclusive
+ >= is greater than or equal to     //inclusive
+ <= is less than or equal to        //inclusive
+ ==   values on both sides are equal
+ !=   values on both sides are not equal
+ ===  values and types on both sides are equal
+ !==  values and/or types on both sides are not equal
+ */
+
+
+var score=0;
+var x=prompt("in which city do u live");
+if (x==="karachi"){
+    score++;
+    alert("karachi is a big city");
+}
+useriq="genius";
+if (score>0){
+    alert("congratz "+useriq);
+}
+else {
+    alert("sorry try again");
+}
+x=prompt("next try");
+if (x==="karachi"){
+    score++;
+    alert("karachi is a big city");
+    }
+
+
