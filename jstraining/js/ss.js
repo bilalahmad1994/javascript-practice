@@ -230,3 +230,76 @@ document.write("the sum num is "+sum);*/
 //}
 
 
+//var age=25;
+//var name="bilal";
+//var city="karachi"
+//if (age>20 && name=="bilal"){
+//    alert("congratz")
+//}
+//if (age<=25 || city==="lahore"){
+//    alert("success");
+//}
+//else{
+//    alert("try again");
+//}
+
+//var time = parseInt(prompt("Enter time in 24 hour format E.g. 1300 for 1pm", "1200"));
+//if (time >= 0000 && time < 1200) {
+//    message = "Good morning!";
+//} else if (time >= 1200 && time < 1700) {
+//    message = "Good afternoon!";
+//} else if (time >= 1700 && time < 2100) {
+//    message = "Good evening!";
+//} else if (time >= 2100 && time <= 2359) {
+//    message = "Good night!";
+//}
+//alert(message);
+
+//var time=parseInt(prompt("enter the num","1000"));
+//if (time>=500 &&  time>2000){
+//    message="good evening";
+//}
+//else if (time>500 && time<100){
+//    message ="good morning";
+//}
+//else if (time <1200 && time >500){
+//message="good afternoon";
+//}
+//alert(message);
+
+
+/** Ternary Operator **/
+
+//var isConfirmed = false;
+//var status;
+//if(isConfirmed == true)
+//{
+//    status = "Confirmed";
+//}
+//else
+//{
+//    status = "Pending";
+//}
+//status = isConfirmed == true ? "Confirmed" : "Pending";
+//alert(status);
+
+/** Nested If Statements **/
+//var age =24;
+//if (age>20){
+//    alert("u are in under 20")
+//    if (age+2>=24){
+//        alert("you reached the limit")
+//
+//    }
+//
+//}
+//else {
+//    alert("sorry try again later");
+//}
+
+var sum = 40;
+if(sum > 50)
+    alert("You've got a good score");
+else
+    alert("Try again!");
+alert("done computing result");
