@@ -17,12 +17,12 @@
 //var array=new bb(); //object to define an array
 
 //updating array elements
-var fruits=["mango","peach","banana"];
-        alert(fruits[0]);
-        fruits[0]="orange"
-        alert(fruits[0]);
-        fruits[1]="chikoo";
-        alert(fruits[1]);
+//var fruits=["mango","peach","banana"];
+//        alert(fruits[0]);
+//        fruits[0]="orange"
+//        alert(fruits[0]);
+//        fruits[1]="chikoo";
+//        alert(fruits[1]);
 
 /** Array methods **/
 /*
@@ -35,11 +35,70 @@ var fruits=["mango","peach","banana"];
  indexOf   = find index or position of a specific element
  */
 
+//array push
+//var fruits=["mango", "peach", "chikoo"];
+//document.write("<br><h4>push</h4>");
+//document.write("<br>shakes" +fruits);
+//fruits.push("apple");
+//document.write("<br>juices"+fruits);
+//fruits.push("pineapple","orange","grapes");
+//document.write("<br>juices and shakes "+fruits);
+//document.write("total fruits "+fruits.length);
+
+//array pop
+//        var vegetables=["potato", "tomato", "onion", "cabbige"];
+//        document.write("<h4>vegetables</h4>" +vegetables);
+//        vegetables.pop();
+//document.write("<br><h4>vegetables</h4>" +vegetables);
+
+//UNSHIFT
+//var fruits = ["Mango", "Peach", "Banana"];
+//document.write("<br><h4>unshift</h4>");
+//document.write("<br>Fruits: " + fruits);
+//fruits.unshift("Apple");
+//document.write("<br>Fruits: " + fruits);
+//fruits.unshift("Water Melon", "Grapes", "Melon");
+//document.write("<br>Fruits: " + fruits);
+//fruits.unshift("Grapes");
+//document.write("<br>Fruits: " + fruits);
+//document.write("<br>Total fruits " + fruits.length);
+
+
+//SHIFT
+//        var fruits=["oo","pp","qq","rr"];
+//        document.write("fruits ",+fruits.length);
+//        fruits.shift();
+//        document.write("fruits ",+fruits.length);
+//        document.write(fruits);
+
+//splice -----> Add/Remove array elements at/f takes care of the rest, with a suite of powerfrom any position
+//var fruits = ["Mango", "Grapes", "Peach", "Banana"];
+//document.write("<br><h4>splice</h4>");
+//document.write("<br>Fruits: " + fruits);
+//fruits.splice(2, 1);
+//document.write("<br>Remove Fruit(s): " + fruits);
+//var fruits = ["Mango", "Grapes", "Peach", "Banana"];
+//fruits.splice(2, 0, "Apple");
+//document. write("<br>Add Fruit(s): " + fruits);
+//var fruits= ["Mango", "Grapes", "Peach", "Banana"];
+//fruits.splice(2, 0, "Apple", "Orange", "Melon");
+//document.write("<br>Add Multiple Fruits: " + fruits);
+//var fruits = ["Mango", "Grapes", "Peach", "Banana"];
+//fruits.splice(2, 1, "Apple");
+//document.write("<br>Add & Remove Fruit(s): " + fruits);
 
 
 
-
+        var fruits=["aa", "bb" ,"cc" ,"dd" ,"ee"];
+        document.write("<br><h4>splice</h4>");
+document.write("<br>fruits "+fruits);
+        fruits.splice(0,1,"apple");
+document.write("<br><h4>addfruits</h4> "+fruits );
+fruits.splice(fruits[0]);
+document.write("<br>remove"+fruits );
     </script>
+
+
 </head>
 <body>
 <h1>bilal ahmad</h1>
