@@ -89,16 +89,38 @@
 
 
 
-        var fruits=["aa", "bb" ,"cc" ,"dd" ,"ee"];
-        document.write("<br><h4>splice</h4>");
-document.write("<br>fruits "+fruits);
-        fruits.splice(0,1,"apple");
-document.write("<br><h4>addfruits</h4> "+fruits );
-fruits.splice(fruits[0]);
-document.write("<br>remove"+fruits );
+//        var fruits=["aa", "bb" ,"cc" ,"dd" ,"ee"];
+//        document.write("<br><h4>splice</h4>");
+//document.write("<br>fruits "+fruits);
+//        fruits.splice(0,1,"apple");
+//document.write("<br><h4>addfruits</h4> "+fruits );
+//fruits.splice(fruits[0]);
+//document.write("<br>remove"+fruits );
+
+
+/** slice **/
+
+
+//var fruits = ["Mango", "Grapes", "Peach", "Banana", "Orange"];
+//document.write("<br><h4>slice</h4>");
+//document.write("<br>Fruits: " + fruits);
+//var newFruits = fruits.slice(2, 4);
+//document.write("<br>Copy Fruit(s): " + newFruits);
+
+
+var aa=["mm","cc","kk"]
+        document.write(aa);
+        var bb=aa.slice(0,1);
+        document.write("<br>copy " +bb);
+
+
+/** indexOf **/
+var fruits = ["mm","orange", "banana", "apple"];
+alert(fruits.indexOf("banana"));    // 1
+alert(fruits.indexOf("apple"));     // 2
+alert(fruits.indexOf("peach"));
+        alert(fruits.indexOf("ll"));
     </script>
-
-
 </head>
 <body>
 <h1>bilal ahmad</h1>
