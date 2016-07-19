@@ -74,9 +74,32 @@
 //document.write("<br>Fruits: " + fruits);
 //var newFruits = fruits.slice(2, 4);
 //document.write("<br>Copy Fruit(s): " + newFruits);
-var str = "Pakistan";
-//str.slice(startIndex, EndIndex+1)
-alert(str.slice(1, 5));
+
+
+//var str = "Pakistan";
+////str.slice(startIndex, EndIndex+1)
+//alert(str.slice(1, 5));
+
+//var str = "hello";
+////var value = str.charAt(1); //e
+//var value = str.charAt(str.length-1); //last character
+//alert(value);
+
+//    var ss="bilal"
+//    var sb=ss.charAt(ss.length-1);
+//    alert(sb);
+
+
+
+var message = "HELLO World";
+document.write("<br>");
+document.write("Message: " + message + "<br>");
+var firstLetter = message.slice(0, 1);
+var remainingString = message.slice(1);
+firstLetter = firstLetter.toUpperCase();
+remainingString = remainingString.toLowerCase();
+document.write("Message after case conversion: ");
+document.write(firstLetter + remainingString);
 </script>
 
 <body>
