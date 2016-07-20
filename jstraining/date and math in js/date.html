@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>date</title>
+<script>
+var right=new Date();
+//    document.write(right + "<br>");
+//document.write(right.getDate() + "<br>");
+//    document.write(right.getDate() + "<br>");
+//    document.write(right.getDay() + "<br>");
+//    document.write(right.getFullYear() + "<br>");
+//    document.write(right.getTime()+ "<br>");
+//    document.write(right.getHours() + "<br>");
+//document.write(right.getTime() + "<br>")
+var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+document.write(days[right.getDay()] + "<br>");
+
+
+//var myBirthday = new Date("June 30, 2015");
+//document.write(myBirthday);
+//document.write("<br>");
+//var myBirthday = new Date("June 30, 2015 17:33:40");
+//document.write(myBirthday);
+
+
+var myBirthday = new Date();
+document.write(myBirthday + "<br>");
+myBirthday.setDate(15);
+document.write(myBirthday + "<br>");
+myBirthday.setMonth(6);
+document.write(myBirthday + "<br>");
+myBirthday.setFullYear(2036);
+document.write(myBirthday + "<br>");
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
